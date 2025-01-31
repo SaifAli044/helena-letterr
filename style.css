@@ -83,7 +83,7 @@ body{
   height: 15px;
   background: var(--heart-color);
   z-index: 4;
-  transform: translate(-50%, -20%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
   transition: transform 0.5s ease-in-out 1s;
   box-shadow: 0 1px 6px var(--shadow-color);
   cursor: pointer;
@@ -116,4 +116,5 @@ body{
 .flap > .heart {
   transform: rotate(90deg);
   transition-delay: 0.4s;
+  z-index: 2;
 }
