@@ -85,9 +85,9 @@ body{
   width: 15px;
   height: 15px;
   background: var(--heart-color);
-  z-index: 4;
+  z-index: 3;  /* Ensure it stays above envelope initially */
   transform: translate(-50%, -50%) rotate(45deg);
-  transition: transform 0.5s ease-in-out 1s;
+  transition: transform 0.5s ease-in-out 1s, z-index 0s ease-in-out 1s;
   box-shadow: 0 1px 6px var(--shadow-color);
   cursor: pointer;
 }
@@ -120,6 +120,5 @@ body{
 
 .flap > .heart {
   transform: rotate(90deg);
-  transition-delay: 0.4s;
-  z-index: 2;
+  z-index: 1; /* Move the heart behind the letter when opened */
 }
