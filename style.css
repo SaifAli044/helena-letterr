@@ -57,20 +57,20 @@ body{
   position: absolute;
   right: 20%;
   bottom: 0;
-  width: 54%;
-  height: 80%;
+  width: 75%;
+  height: 110%;
   background: var(--primary);
   text-align: center;
   transition: all 1s ease-in-out;
   box-shadow: 0 0 5px var(--shadow-color);
-  padding: 20px 10px;
+  padding: 205px 15px;
 }
 
 .envelope > .letter > .text {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--txt-color);
   text-align: left;
-  font-size: 10px;
+  font-size: 14px;
 }
 .heart {
   position: absolute;
@@ -105,8 +105,8 @@ body{
   z-index: 0;
 }
 .flap > .envelope > .letter {
-  bottom: 100px;
-  transform: scale(1.5);
+  bottom: 130px;
+  transform: scale(1.7);
   transition-delay: 1s;
 }
 .flap > .heart {
