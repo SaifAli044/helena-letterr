@@ -28,8 +28,8 @@ body{
 }
 .envelope-wrapper > .envelope {
   position: relative;
-  width: 350px;
-  height: 280px;
+  width: 320px;
+  height: 260px;
 }
 .envelope-wrapper > .envelope::before {
   content: "";
@@ -58,19 +58,21 @@ body{
   right: 20%;
   bottom: 0;
   width: 75%;
-  height: 140%;
+  height: 120%;
   background: var(--primary);
   text-align: center;
   transition: all 1s ease-in-out;
   box-shadow: 0 0 5px var(--shadow-color);
-  padding: 30px 20px;
+  padding: 25px 15px;
 }
 
 .envelope > .letter > .text {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--txt-color);
   text-align: left;
-  font-size: 15px;
+  font-size: 13px;
+  line-height: 1.5;
+
 }
 .heart {
   position: absolute;
@@ -105,7 +107,7 @@ body{
   z-index: 0;
 }
 .flap > .envelope > .letter {
-  bottom: 150px;
+  bottom: 120px;
   transform: scale(2.0);
   transition-delay: 1s;
 }
