@@ -30,6 +30,7 @@ body{
   position: relative;
   width: 460px;
   height: 360px;
+  z-index: 2;
 }
 .envelope-wrapper > .envelope::before {
   content: "";
@@ -55,6 +56,7 @@ body{
 }
 .envelope > .letter {
   position: absolute;
+  transform: translateX(-50%); /* Centers the letter */
   right: 20%;
   bottom: 0px;
   width: 85%;
@@ -64,7 +66,7 @@ body{
   transition: all 1s ease-in-out;
   box-shadow: 0 0 5px var(--shadow-color);
   padding: 25px 15px;
-  z-index: 3;
+  z-index: 1;
 }
 
 .envelope > .letter > .text {
