@@ -28,15 +28,15 @@ body{
 }
 .envelope-wrapper > .envelope {
   position: relative;
-  width: 400px;
-  height: 320px;
+  width: 420px;
+  height: 340px;
 }
 .envelope-wrapper > .envelope::before {
   content: "";
   position: absolute;
   top: 0;
   z-index: 2;
-  border-top: 160px solid var(--envelope-tab);
+  border-top: 180px solid var(--envelope-tab);
   border-right: 150px solid transparent;
   border-left: 150px solid transparent;
   transform-origin: top;
@@ -107,7 +107,7 @@ body{
   z-index: 0;
 }
 .flap > .envelope > .letter {
-  bottom: 100px;
+  bottom: 90px;
   transform: scale(1.2);
   transition-delay: 1s;
 }
