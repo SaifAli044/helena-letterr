@@ -28,8 +28,8 @@ body{
 }
 .envelope-wrapper > .envelope {
   position: relative;
-  width: 320px;
-  height: 260px;
+  width: 340px;
+  height: 270px;
 }
 .envelope-wrapper > .envelope::before {
   content: "";
@@ -57,8 +57,8 @@ body{
   position: absolute;
   right: 20%;
   bottom: 0;
-  width: 75%;
-  height: 120%;
+  width: 70%;
+  height: 100%;
   background: var(--primary);
   text-align: center;
   transition: all 1s ease-in-out;
@@ -107,8 +107,8 @@ body{
   z-index: 0;
 }
 .flap > .envelope > .letter {
-  bottom: 120px;
-  transform: scale(2.0);
+  bottom: 105px;
+  transform: scale(1.4);
   transition-delay: 1s;
 }
 .flap > .heart {
